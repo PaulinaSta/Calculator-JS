@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="info-box radius-shadow">
+            <p class="info-text">Skonfiguruj kalkulator wybierając te przyciski, które mają być aktywne.</p>
+            <p class="info-text">Uwaga! Przyciski "C" oraz "=" są wbudowane na stałe.</p>
+        </div>
+
+        <div class="alert-box radius-shadow">
+            <p class="alert-text"></p>
+        </div>
+
+        <div class="calculator radius-shadow">
+            <div class="display radius-shadow">
+                <div class="display-wrapper">
+                    <p class="display-content"></p>
+                </div>
+            </div>
+            <div class="keyboard">
+                <button class="button btn btn-config">**</button>
+                <button class="button btn btn-config">/</button>
+                <button class="button btn btn-config">*</button>
+                <button class="button btn btn-active btn-cancel">C</button>
+                <button class="button btn btn-config btn-number">7</button>
+                <button class="button btn btn-config btn-number">8</button>
+                <button class="button btn btn-config btn-number">9</button>
+                <button class="button btn btn-config">!</button>
+                <button class="button btn btn-config btn-number">4</button>
+                <button class="button btn btn-config btn-number">5</button>
+                <button class="button btn btn-config btn-number">6</button>
+                <button class="button btn btn-config">-</button>
+                <button class="button btn btn-config btn-number">1</button>
+                <button class="button btn btn-config btn-number">2</button>
+                <button class="button btn btn-config btn-number">3</button>
+                <button class="button btn btn-config">+</button>
+                <button class="button btn btn-config btn-number">0</button>
+                <button class="button btn btn-config">.</button>
+                <button class="button btn btn-active btn-equal">=</button>
+            </div>
+        </div>
+
+        <button class="button button-confirm radius-shadow">zatwierdź</button>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
